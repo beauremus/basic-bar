@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+#container {
+    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27px, 1fr));
+    justify-items: center;
+    align-items: end;
+}
+
+.bar {
+    width: 25px;
+    background-color: blue;
+    display: grid;
+    align-content: end;
+    justify-content: center;
+    color: white;
+}
+
+#chg1 {
+    left: 80px;
+}
+
+#chg2 {
+    left: 160px;
+}
+
+label {
+    writing-mode: sideways-lr;
+    padding-bottom: 10px;
+}
